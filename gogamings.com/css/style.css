@@ -1,0 +1,93 @@
+html {scroll-behavior: smooth;}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header-bg {border-bottom: 1px #ccc solid;}
+  #gallery{
+    -webkit-column-count:3;
+    -moz-column-count:3;
+    column-count:3;
+    
+    -webkit-column-gap:10px;
+    -moz-column-gap:10px;
+    column-gap:10px;
+  }
+  @media (max-width:1200px){
+    #gallery{
+    -webkit-column-count:3;
+    -moz-column-count:3;
+    column-count:3;
+      
+    -webkit-column-gap:10px;
+    -moz-column-gap:10px;
+    column-gap:10px;
+  }
+  }
+  @media (max-width:800px){
+    #gallery{
+    -webkit-column-count:2;
+    -moz-column-count:2;
+    column-count:2;
+      
+    -webkit-column-gap:10px;
+    -moz-column-gap:10px;
+    column-gap:10px;
+  }
+  }
+  @media (max-width:600px){
+    #gallery{
+    -webkit-column-count:1;
+    -moz-column-count:1;
+    column-count:1;
+  }  
+  }
+  .card{
+    width:100%;
+    height:auto;
+    margin: 0% auto 4% auto;
+    border: 1px #eee solid; 
+    padding: 5px;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  
+  .owl-dots {
+    text-align: center;
+    padding-top: 15px;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+      transform: translateX(-50%);
+    }
+    .owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgba(0,0,0,0) !important;
+    margin: 0 3px;
+    border: 2px #000 solid !important;
+    }
+    .owl-dots button.owl-dot.active {
+    background: rgba(255,255,255,1) !important;
+    border: 2px #000 solid !important;
+    }
+    .owl-dots button.owl-dot:focus {
+    outline: none;
+    }
+    .owl-nav button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .owl-nav button:focus {
+      outline: none;
+    }
+
+    .terms {}
+    
+    .terms h5 {display:block;width:100%; margin:15px 0px; font-size:15px;}
+    .terms p {display:block;width:100%; line-height: 25px; margin:5px 0px; font-size:14px; color:#575757;}
+    .terms ul {margin: 0px; padding: 0px;}
+    .terms ul li {margin: 0px; padding: 0px; list-style-type: none;font-size:14px; color:#575757;}

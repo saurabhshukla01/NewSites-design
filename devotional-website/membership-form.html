@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Membership Form</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/lightgallery.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/jquery.modal.min.css" rel="stylesheet">    
+    <link id="bsdp-css" href="css/bootstrap-datepicker.css" rel="stylesheet">
+    <!--<script>document.documentElement.className = 'js';</script>-->
+  </head>
+  <body id="home" data-spy="scroll" data-target=".navbar" data-offset="147">
+    <!--Header-->
+    <header>
+      <!-- Navigation -->
+      <div class="bg-light start-header start-style">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 header-top">
+              <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" /></a>
+              <ul class="m-0">
+                <li class="">
+                  <a class="theme-bg outline-btn text-white" href="#">Live Darshan</a>
+                </li>
+                <li class="">
+                  <a class="outline-btn" href="#loginpopup" rel="modal:open">Login</a>
+                </li>
+                <!--<li class="">
+                  <a class="outline-btn" href="#">Registration </a>
+                </li>-->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navigation">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <nav class="navbar navbar-expand-md navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav py-4 py-md-0">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="video-gallery.html">Video Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="photo-gallery.html">Photo Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="music-gallery.html">Songs & Music Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="book-gallery.html">Book Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="blog.html">Blogs & Article</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Download Section</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More</a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Artist booking </a>
+                        <a class="dropdown-item" href="#">Helpline Directory and details</a>
+                        <a class="dropdown-item" href="membership-form.html">Membership form</a>
+                        <a class="dropdown-item" href="events.html">Events upcoming </a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Header-->
+    <!--Banner-->
+    <section class="inner-banner">
+      <h2 style="display: none;">Banner</h2>
+      <img src="images/inner-banner.jpg" alt="" />
+      <div class="section-heading pt-5 inner-title">
+        <div class="container">
+          <h2>Membership</h2>
+        <h6>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</h6>
+        </div>
+      </div>
+      </section>
+    <!--Banner-->
+    <section id="" class="membership">
+      <div class="container">
+        <form class="well form-horizontal" action=" " method="post"  id="membership_form">
+          <fieldset>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <div class="avatar-upload">
+                    <div class="avatar-preview">
+                      <div id="imagePreview" style="background-image: url(images/banner.jpg);">
+                      </div>
+                    </div>
+                    <div class="avatar-edit">
+                      <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                      <label for="imageUpload"></label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>First Name</label>
+                  <input type="text" class="form-control" name="first_name" placeholder="Enter your First Name" value="" autocomplete="off" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Last Name</label>
+                  <input type="text" class="form-control" name="last_name" placeholder="Enter your Last Name" value="" autocomplete="off" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Contact Number</label>
+                  <input type="text" class="form-control" name="contact_number" placeholder="Enter your Contact Number" value="" autocomplete="off" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>E-mail</label>
+                  <input type="text" class="form-control" name="email" placeholder="Enter your E-mail Address" value="" autocomplete="off" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Date of Birth</label>
+                  <input type="text" class="form-control" name="date_birth" id="date_birth" placeholder="Enter your Date of Birth" value="" autocomplete="off" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Gender</label>
+                  <div class="checkRadioContainer">
+                    <label>
+                      <input type="radio" name="gender" />
+                      <i class="fa fa-check gender-icon"></i>
+                      <span>Male</span>
+                    </label>
+                    <label>
+                      <input type="radio" name="gender" />
+                      <i class="fa fa-check gender-icon"></i>
+                      <span>Female</span>
+                    </label>
+                  </div>
+                  <!--<input type="text" class="form-control" name="gender" placeholder="gender" value="" autocomplete="off" />-->
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Address Line 1</label>
+                  <input type="text" class="form-control" name="addressline1" placeholder="Enter your Address" value="" autocomplete="off" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Address Line 2</label>
+                  <input type="text" class="form-control" name="addressline2" placeholder="Enter your Address" value="" autocomplete="off" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>City</label>
+                  <input type="text" class="form-control" name="city" placeholder="Enter your City" value="" autocomplete="off" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>State</label>
+                  <input type="text" class="form-control" name="state" placeholder="Enter your State" value="" autocomplete="off" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Country</label>
+                  <select name="country" class="form-control selectpicker">
+                    <option value="">Select your Country</option>
+                    <option >India</option>
+                    <option >India</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Zip Code</label>
+                  <input type="text" class="form-control" name="zipcode" placeholder="Enter your Zip Code" value="" autocomplete="off" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Select ID Proof</label>
+                  <select name="id_proof" class="form-control selectpicker">
+                    <option value="">Select your ID Proof</option>
+                    <option >AAdhar Card</option>
+                    <option >Voter ID Card</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Id Proof Number</label>
+                  <input type="text" class="form-control" name="id_proof_number" placeholder="Enter your Id Proof Number" value="" autocomplete="off" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Username</label>
+                  <input type="text" class="form-control" name="username" placeholder="Enter your Username" value="" autocomplete="off" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Password</label>
+                  <input type="text" class="form-control" name="password" placeholder="Enter your Password" value="" autocomplete="off" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Confirm Password</label>
+                  <input type="text" class="form-control" name="confirm_password" placeholder="Enter your Confirm Password" value="" autocomplete="off" />
+                </div>
+              </div>
+              <!-- Button -->
+              <div class="form-group">
+                <div class="col-md-4">
+                  <button type="submit" class="outline-btn" style="line-height: 22px;">Submit</button>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div><!-- /.container -->
+  </section>
+  <!--footer-->
+        <footer class="container-fluid bg-grey pt-5 mt-4">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-md-6 ">
+                    <div class="logo-part">
+                      <img src="images/logo.png" class="w-50 logo-footer" alt="" />
+                      <p>Lorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+                      <p>Use this tool as test data for an automated system or find your next pen</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 px-4">
+                    <h6> About Lorem Ipsum</h6>
+                    <p>But horizontal lines can only be a full pixel high.</p>
+                    <a href="#" class="btn-footer"> More Info </a><br>
+                    <a href="#" class="btn-footer"> Contact Us</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-md-6 px-2">
+                    <h6> Help us</h6>
+                    <div class="row ">
+                      <div class="col-md-6">
+                        <ul>
+                          <li> <a href="#"> Home</a> </li>
+                          <li> <a href="#"> video gallery</a> </li>
+                          <li> <a href="#"> Photo gallery</a> </li>
+                          <li> <a href="#"> Music gallery</a> </li>
+                          <li> <a href="#"> Blogs N article</a> </li>
+                          <li> <a href="#"> Post a blog or experience</a> </li>
+                        </ul>
+                      </div>
+                      <div class="col-md-6 px-2">
+                        <ul>
+                          <li> <a href="#"> Artist booking</a> </li>
+                          <li> <a href="#"> Helpline Directory and details</a> </li>
+                          <li> <a href="#"> Membership form</a> </li>
+                          <li> <a href="#"> Download section</a> </li>
+                          <li> <a href="#"> Events upcoming </a> </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 ">
+                    <h6> Newsletter</h6>
+                    <div class="social">
+                      <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                      <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                      <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                    <form class="form-footer my-3">
+                      <input type="text"  placeholder="search here...." name="search">
+                      <input type="button" value="Go" >
+                    </form>
+                    <p>Lorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row text-center mt-3 pt-3 pb-3" style="border-top: 1px solid grey;">
+              <div class="col-md-12 copyrt xs-center">
+                <small>2020 © All Rights Reserved.</small>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- Login Button Code-->
+      <div class=" col-md-8 m-auto print-modal-container">
+        <div class="text-left" id="loginpopup" style="display:none;">
+          <div class="row">
+            <div class="col-md-6 text-center pt-5" style="background: #FFF; margin-top: -1px;">
+              <img src="images/logo.png" alt="" class="w-25 pt-5"><!--<span class="pt-5 mt-5 d-block text-white display-4">Logo</span>-->
+            </div>
+            <div class="col-md-6 bg-white">
+              <div id="swapper-first" style="display:block;" class="login-form p-5">
+                <form>
+                  <h1>Login</h1>
+                  <div class="form-group">
+                    <input type="email" name="email" placeholder="E-mail Address" autocomplete="off">
+                    <span class="input-icon"><i class="fa fa-envelope"></i></span>
+                  </div>
+                  <div class="form-group">
+                    <input type="password" name="psw" placeholder="Password" autocomplete="off">
+                    <span class="input-icon"><i class="fa fa-lock"></i></span>
+                  </div>
+                  <button class="login-btn action-btn">Login</button>
+                  <a class="reset-psw" href="#forgotpopup" rel="modal:open">Forgot your password?</a>
+                  <a class="signup" href="javascript:SwapDivsWithClick('swapper-first','swapper-other')">New User - <span class="font-weight-bold">Sign Up</span></a>
+                  <div class="seperator"><b>or</b></div>
+                  <p>Sign in with your social media account</p>
+                  <!-- Social login buttons -->
+                  <div class="social-icon">
+                    <button type="button"><i class="fa fa-facebook"></i></button>
+                    <button type="button"><i class="fa fa-twitter"></i></button>
+                    <button type="button"><i class="fa fa-google-plus"></i></button>
+                    <button type="button"><i class="fa fa-linkedin"></i></button>
+                  </div>
+                </form>
+              </div>
+              <div id="swapper-other" style="display:none;" class="login-form p-5">
+                <form>
+                  <h1>Sign Up</h1>
+                  <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" autocomplete="off">
+                    <span class="input-icon"><i class="fa fa-user-circle-o"></i></span>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" name="email" placeholder="E-mail Address" autocomplete="off">
+                    <span class="input-icon"><i class="fa fa-envelope"></i></span>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" name="phone" placeholder="Enter Your Phone Number" autocomplete="off">
+                    <span class="input-icon"><i class="fa fa-mobile"></i></span>
+                  </div>
+                  <div class="form-group">
+                    <input type="password" name="password" placeholder="Create Password" autocomplete="off">
+                    <span class="input-icon"><i class="fa fa-lock"></i></span>
+                  </div>
+                  <div class="form-group">
+                    <input type="password" name="password" placeholder="Confirm Password" autocomplete="off">
+                    <span class="input-icon"><i class="fa fa-lock"></i></span>
+                  </div>
+                  <button class="login-btn action-btn">Sign Up</button>
+                  <!--<a class="reset-psw" href="#">Forgot your password?</a>-->
+                  <a class="signin" href="javascript:SwapDivsWithClick('swapper-first','swapper-other')"> If you have already a account - <span class="font-weight-bold">Sign In</span></a>
+                  <div class="seperator"><b>or</b></div>
+                  <p>Sign Up with your social media account</p>
+                  <!-- Social login buttons -->
+                  <div class="social-icon">
+                    <button type="button"><i class="fa fa-facebook"></i></button>
+                    <button type="button"><i class="fa fa-twitter"></i></button>
+                    <button type="button"><i class="fa fa-google-plus"></i></button>
+                    <button type="button"><i class="fa fa-linkedin"></i></button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--forgot password pop up-->
+        <div class="" id="forgotpopup" style="display:none;text-align: left;">
+          <div class="login-form">
+            <form>
+              <h1>Forgot Password</h1>
+              <div class="form-group">
+                <input type="email" name="email" placeholder="E-mail Address" autocomplete="off">
+                <span class="input-icon"><i class="fa fa-envelope"></i></span>
+              </div>
+              <span class="forgotbtn w-50"><a href="" class="login-btn action-btn">Reset Password</a></span>
+              <span class="forgotbtn w-50"><a class="outline-btn" href="#loginpopup" rel="modal:open">Back to Login</a></span>
+            </form>
+          </div>
+        </div>
+        <!--forgot password pop up-->
+      </div>
+      <!-- login pop up Code-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/script.js"></script> 
+      <script src="js/lightbox.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/jquery.modal.min.js"></script>
+      <script src="js/main.js"></script>  
+      <script src="js/jquery.validate.min.js"></script>
+      <script src="js/bootstrap-datepicker.js"></script>  
+      <script>
+        $(document).ready(function(){
+          $('#lightgallery').lightGallery(); 
+        });
+      </script>
+      <script>
+        $('#html5-videos').lightGallery();
+      </script>
+      <script>
+           $(function () {
+                $('#date_birth').datepicker();
+            });
+      </script>
+    </body>
+  </html>

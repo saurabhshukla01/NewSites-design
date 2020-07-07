@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- meta tag -->
+    <meta charset="utf-8">
+    <title>404</title>
+    <meta name="description" content="">
+    <!-- responsive tag -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link href="css/owl.carousel.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+  </head>
+  <body>
+      
+    <section id="error-page" class="error-page">
+        <div class="overlay">&nbsp;</div>
+        <div id="particle-canvas"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-12">
+                    <!-- Error Inner -->
+                    <div class="error-inner">
+                        <h2>4<span class="theme-color">0</span>4</h2>
+                        <p>Oops! The page you are looking for does not exist. It might have been moved or deleted.</p>
+                        <a href="index.html" class="outline-btn theme-bg text-white">Back to Home</a>
+                    </div>
+                    <!--/ End Error Inner -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/script.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script>
+        $(document).ready(function () {
+        $("#owl-demo").owlCarousel({
+          items : 1, //10 items above 1000px browser width
+            itemsDesktop : [1000,1], //5 items between 1000px and 901px
+            itemsDesktopSmall : [900,1], // 3 items betweem 900px and 601px
+            itemsTablet: [600,1],
+          pagination : true,
+          navigation : true,
+          autoplay : true,
+          loop : true,
+        });
+        $("#owl-demo2").owlCarousel({
+          pagination : true,
+          navigation : true,
+          responsiveClass:true,
+          responsive:{
+              0:{
+                  items:1,
+                  nav:true
+              },
+              600:{
+                  items:2,
+                  nav:false
+              },
+              1000:{
+                  items:3,
+                  nav:true,
+                  loop:false
+              }
+          },
+          margin : 20,
+          loop :true,
+          autoplay : true,
+        });
+      });
+      </script>
+    </body>
+  </html>
